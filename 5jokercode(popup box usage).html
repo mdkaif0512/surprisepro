@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        #suprise{
+            display: flex;
+            justify-content: center;  
+            align-items: center;      
+            height: 85vh;            
+            margin: 0; 
+            flex-direction: column;
+        }
+        h1{
+            color: rgb(86, 3, 60);
+        }
+        input{
+            padding: 10px 50px;
+            background-color: rgb(205, 172, 235);
+            border-radius: 20px;
+            box-shadow: 5px 5px 30px 30px rgb(65, 8, 51);
+            cursor: pointer;
+            color: rgb(14, 2, 11);
+            font-weight: bolder;
+        }
+        body{
+            background-image:url("https://m.media-amazon.com/images/I/61VNA9D4lsL._AC_UF1000,1000_QL80_.jpg");
+            margin: 0;
+            padding: 0;
+            height: 100vh;  
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+        }
+    </style>
+</head>
+<body>
+       <div id="suprise">
+        <h1>Click the button to see the suprise...</h1><br><br>
+           <input type="button" onclick=suprise_box2() value="Suprise button">
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
